@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class LoginActivity extends BaseActivity {
 
@@ -31,6 +32,8 @@ public class LoginActivity extends BaseActivity {
                     startActivity(intent);
                     finish();
 
+                }else{
+                    Toast.makeText(LoginActivity.this,"账号或密码错误",Toast.LENGTH_SHORT).show();
                 }
 
 

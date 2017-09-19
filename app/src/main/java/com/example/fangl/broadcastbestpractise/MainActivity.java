@@ -9,7 +9,6 @@ import android.widget.Button;
 public class MainActivity extends BaseActivity {
 
     private Button button_Offline;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
